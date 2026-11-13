@@ -42,7 +42,7 @@ share the same middleware, **MAESTRO**:
 
 ### 1.2 The task
 
-![The task: turn one sentence into a list of actions](img/A1-tarea.png)
+![The task: turn one sentence into a list of actions](https://github.com/cuadernos-investigacion/planning-module-demo/releases/download/demo-october-2026/A1-tarea.png)
 
 *Figure 1. The module's task: a spoken request (“Get the glass from the living room for me”) is
 turned into a list of executable actions. Source: SMARTNESS presentation, slide 7.*
@@ -82,7 +82,7 @@ The design draws on two recent works on language agents.
 
 ### 2.1 CoALA — *Cognitive Architectures for Language Agents*
 
-![CoALA: cognitive architecture of a language agent](img/A1-coala.png)
+![CoALA: cognitive architecture of a language agent](https://github.com/cuadernos-investigacion/planning-module-demo/releases/download/demo-october-2026/A1-coala.png)
 
 *Figure 2. Cognitive architecture of a language agent: (A) a standalone LLM, (B) a language agent
 that observes and acts on an environment, (C) a cognitive language agent with modular memory,
@@ -95,7 +95,7 @@ Module adopts this organization: each type of memory has a concrete counterpart 
 
 ### 2.2 ROSClaw — OpenClaw + ROS 2
 
-![ROSClaw architecture](img/A1-rosclaw.png)
+![ROSClaw architecture](https://github.com/cuadernos-investigacion/planning-module-demo/releases/download/demo-october-2026/A1-rosclaw.png)
 
 *Figure 3. ROSClaw: integrates OpenClaw's cognitive agent with ROS 2 through a model-agnostic
 executive layer, with capability discovery, observation normalization, a safety validator, and an audit log.
@@ -111,7 +111,7 @@ MAESTRO in place of ROS 2.
 
 ## 3. Planning Module architecture
 
-![Cognitive architecture and execution workflow](img/A1-arquitectura.png)
+![Cognitive architecture and execution workflow](https://github.com/cuadernos-investigacion/planning-module-demo/releases/download/demo-october-2026/A1-arquitectura.png)
 
 *Figure 4. Cognitive architecture and execution workflow of the OpenClaw-based system. (A) Organization
 of memory, reasoning, and interaction with the environment. (B) Planning, validation,
@@ -137,7 +137,7 @@ execution, and replanning workflow. Source: author's own work.*
 
 ## 4. The pipeline, step by step
 
-![Two OpenClaw agents, wrapped in code that checks them](img/A1-pipeline.png)
+![Two OpenClaw agents, wrapped in code that checks them](https://github.com/cuadernos-investigacion/planning-module-demo/releases/download/demo-october-2026/A1-pipeline.png)
 
 *Figure 5. Two OpenClaw agents (in blue) wrapped in code that checks them. Everything else is
 deterministic code. Source: SMARTNESS presentation, slide 8.*
